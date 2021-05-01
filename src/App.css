@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+.calculator {
+  border: 1px solid black;
+  width: 250px;
+  height: 400px;
+  background-color: #364878;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.screen {
+  background-color: #5d5a53;
+  color: #3e3f40;
+  width: 100px;
+  height: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logo {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.solarpanel {
+  background-color: black;
+  width: 80px;
+  height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  background-color: white;
+  color: #364878;
 }
